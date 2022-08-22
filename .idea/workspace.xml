@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c046d1bd-4891-4c47-ad93-f349fb73173d" name="Changes" comment="backend finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor-backend" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_0.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_13757.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_13757.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/global.stat" afterDir="false" />
@@ -49,7 +50,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/editor-backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/follower-backend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -203,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660749752641</updated>
       <workItem from="1660749754260" duration="6983000" />
-      <workItem from="1660757336958" duration="145268000" />
+      <workItem from="1660757336958" duration="146180000" />
     </task>
     <task id="LOCAL-00001" summary="backend finished">
       <created>1661158853962</created>
