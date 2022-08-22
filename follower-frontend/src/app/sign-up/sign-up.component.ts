@@ -12,12 +12,12 @@ export class SignUpComponent implements OnInit {
   username!: string;
   password!: string;
 
-  throwError!: string;
-  errorSub: Subscription
+  notification!: Array<string | boolean>;
+  notificationSub: Subscription
 
   constructor(private dataService: DataService) {
-    this.errorSub = dataService.error$.subscribe(errorMsg => {
-      this.throwError = errorMsg
+    this.notificationSub = dataService.notification$.subscribe(message => {
+      this.notification = message
     })
   }
 
@@ -25,16 +25,16 @@ export class SignUpComponent implements OnInit {
   }
 
   ngOnDestroy() {
-    this.errorSub.unsubscribe()
+    this.notificationSub.unsubscribe()
   }
 
   onSignUp() {
     if (this.username && this.password) {
-      // this.dataService.signUp(this.username, this.password)
+      this.dataService.signUp(this.username, this.password)
     }
 
     else if (!this.username || !this.password) {
-      this.throwError = 'Username and Password can not be empty.'
+      this.notification = ['Username and Password can not be empty.', false]
     }
   }
 

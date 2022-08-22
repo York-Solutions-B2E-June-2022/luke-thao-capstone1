@@ -1,5 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {ISurveyReq} from "../Interfaces/ISurveyReq";
+import {ISurvey} from "../Interfaces/ISurvey";
+import {SurveyService} from "../survey.service";
 
 @Component({
   selector: 'app-survey-display',
@@ -8,11 +9,17 @@ import {ISurveyReq} from "../Interfaces/ISurveyReq";
 })
 export class SurveyDisplayComponent implements OnInit {
 
-  @Input() survey!: ISurveyReq;
+  @Input() survey!: ISurvey;
 
-  constructor() { }
+  constructor(private surveyService: SurveyService) {
+
+  }
 
   ngOnInit(): void {
+  }
+
+  takeSurvey() {
+    this.surveyService.takeSurvey(this.survey)
   }
 
 }

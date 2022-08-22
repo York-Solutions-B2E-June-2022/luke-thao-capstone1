@@ -1,1 +1,65 @@
-<p>survey works!</p>
+
+<div class="container mt-5">
+  <div class="row d-flex justify-content-center">
+
+    <h1 class="text-center">{{this.survey ? "Survey Edit" : "Create Survey"}}</h1>
+
+    <div class="col-8">
+      <button class="btn btn-light btn-outline-danger" (click)="cancelSurvey()">Cancel</button>
+      &nbsp;
+      <button class="btn btn-light btn-outline-primary" (click)="reset()">Reset</button>
+      &nbsp;
+
+      <button *ngIf="this.survey" class="btn btn-success" (click)="submitSurvey()">Finished Editing</button>
+      <button *ngIf="!this.survey" class="btn btn-success" (click)="submitSurvey()">Create Survey</button>
+    </div>
+
+    <div class="col-4 text-end">
+      <button *ngIf="this.survey" class="btn btn-danger" (click)="deleteSurvey()">Delete Survey</button>
+    </div>
+
+
+
+    <hr class="mt-2">
+
+    <app-notification [notification]="notification"></app-notification>
+
+    <div class="col-5 text-center mt-2">
+      <div class="row">
+        <h3 class="">Title</h3>
+        <input class="mb-3 form-control" type="text" [(ngModel)]="title" placeholder="Title..">
+
+      </div>
+
+      <div class="row mt-2">
+        <h3>Questions</h3>
+        <hr>
+        <div *ngFor="let question of questions; let i = index">
+          <div class="row">
+            <div class="col-auto d-flex align-items-center p-0 mb-2">
+              {{i + 1 + '. '}}{{question.prompt}}
+              &nbsp;
+              <button class="btn btn-primary btn-sm" (click)="editQuestion(i)">Edit</button>
+              &nbsp;
+              <button class="btn btn-danger btn-sm" (click)="deleteQuestion(i)">x</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="newQuestion">
+        <app-question-form></app-question-form>
+      </div>
+
+      <div *ngIf="newQuestion" class="row mt-2">
+        <button class="btn btn-danger" (click)="cancelQuestion()">Cancel</button>
+      </div>
+
+      <div *ngIf="!newQuestion" class="row mt-2">
+        <button class="btn btn-primary" (click)="createQuestion()">Add Question</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+

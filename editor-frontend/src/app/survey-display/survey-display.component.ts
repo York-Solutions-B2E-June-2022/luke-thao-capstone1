@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {ISurveyReq} from "../Interfaces/ISurveyReq";
+import {SurveyService} from "../survey.service";
 
 @Component({
   selector: 'app-survey-display',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SurveyDisplayComponent implements OnInit {
 
-  constructor() { }
+  @Input() survey!: ISurveyReq;
+
+  constructor(private surveyService: SurveyService) { }
 
   ngOnInit(): void {
+  }
+
+  editSurvey() {
+    this.surveyService.editSurvey(this.survey)
   }
 
 }

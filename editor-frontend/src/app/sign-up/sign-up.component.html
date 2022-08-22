@@ -1,1 +1,16 @@
-<p>sign-up works!</p>
+
+
+<div class="row text-center mt-3">
+  <h1>Sign up</h1>
+  <div class="col-12">
+    <input type="text" class="m-1" placeholder="username" [(ngModel)]="username"/>
+    <input type="text" class="m-1" placeholder="password" [(ngModel)]="password"/>
+    <button class="btn btn-outline-dark m-1" (click)="onSignUp()">Sign Up</button>
+  </div>
+
+  <div class="col-12">
+    Have an account? <a [routerLink]="['/login']">Login</a>
+  </div>
+</div>
+
+<app-notification [notification]="notification"></app-notification>

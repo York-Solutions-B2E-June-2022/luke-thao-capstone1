@@ -1,1 +1,64 @@
-<p>question-form works!</p>
+<div class="row background d-flex justify-content-center">
+  <div class="row">
+    <input class="form-control" type="text" placeholder="Question" [(ngModel)]="prompt">
+  </div>
+
+  <div class="row mt-3">
+    <input class="form-control" type="number" placeholder="Order" [(ngModel)]="questionOrder" min="1">
+  </div>
+
+  <div class="row mt-2">
+    <label>Question Type</label>
+    <select class="form-control" [(ngModel)]="questionType">
+      <option value="mc">Multiple Choice</option>
+      <option value="tf">True or False</option>
+      <option value="text">Text</option>
+    </select>
+  </div>
+
+  <div *ngIf="questionType === 'mc'">
+
+    <div class="row mt-2 mb-2">
+
+      <div class="col-auto d-flex align-items-center">
+        <span class="fw-bold">Enter Answer</span>
+        &nbsp;
+        <input type="text" placeholder="Type answer here.." [(ngModel)]="answer">
+      </div>
+
+      <div class="col-auto">
+        <button class="btn btn-primary mt-1" (click)="addAnswer()">Add</button>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="answers.length">
+    <hr>
+    <div class="col-12 text-start fw-bold mb-2">
+      Answers
+    </div>
+    <div *ngFor="let answer of answers; let i = index">
+
+      <div class="col-12 d-flex align-items-center mb-2">
+        {{i + 1 + '. '}}{{answer}}
+        &nbsp;
+        <button class="btn btn-danger btn-sm" (click)="deleteAnswer(i)">x</button>
+      </div>
+    </div>
+  </div>
+
+  <app-notification [notification]="notification"></app-notification>
+</div>
+
+<div class="row">
+
+  <button *ngIf="editing" class="btn btn-primary mt-2" (click)="submitQuestionEdit()">
+    Submit Edit
+  </button>
+
+  <button *ngIf="!editing" class="btn btn-primary mt-2"  (click)="onAddQuestion()">
+    Submit
+  </button>
+
+</div>
+
