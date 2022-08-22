@@ -64,7 +64,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/follower-backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/editor-backend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -218,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660749752641</updated>
       <workItem from="1660749754260" duration="6983000" />
-      <workItem from="1660757336958" duration="143632000" />
+      <workItem from="1660757336958" duration="143858000" />
     </task>
     <task id="LOCAL-00001" summary="backend finished">
       <created>1661158853962</created>
