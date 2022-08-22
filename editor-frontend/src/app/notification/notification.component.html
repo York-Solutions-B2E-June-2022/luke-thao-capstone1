@@ -1,0 +1,22 @@
+
+
+
+
+<div *ngIf="notification[1]; then successMsg; else errorMsg"> </div>
+
+<ng-template #successMsg>
+  <div class="row text-center mt-1 mb-2 justify-content-center">
+    <div class="col-auto bg-success text-white btn" >
+      {{notification[0]}}
+    </div>
+  </div>
+</ng-template>
+
+<ng-template #errorMsg>
+  <div class="row text-center mt-1 mb-2 justify-content-center">
+    <div class="col-auto bg-danger text-white btn" >
+      {{notification[0]}}
+    </div>
+  </div>
+</ng-template>
+
