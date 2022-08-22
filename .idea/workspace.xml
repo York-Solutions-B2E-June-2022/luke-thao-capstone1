@@ -6,24 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c046d1bd-4891-4c47-ad93-f349fb73173d" name="Changes" comment="backend finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/1259" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/1259" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/2619" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/2619" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/2619_fsm" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/2619_fsm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/2696" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/2696" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/2840" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/2840" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/2841" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/2841" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/base/13757/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/base/13757/pg_internal.init" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/global/pg_control" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/global/pg_control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/global/pg_internal.init" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/global/pg_internal.init" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_0.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_0.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_13757.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/db_13757.stat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/global.stat" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_stat_tmp/global.stat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_wal/000000010000000000000002" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_wal/000000010000000000000002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-backend/database/pg_xact/0000" beforeDir="false" afterPath="$PROJECT_DIR$/editor-backend/database/pg_xact/0000" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/follower-backend" beforeDir="false" afterPath="$PROJECT_DIR$/follower-backend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/follower-backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/follower-backend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +203,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660749752641</updated>
       <workItem from="1660749754260" duration="6983000" />
-      <workItem from="1660757336958" duration="143858000" />
+      <workItem from="1660757336958" duration="145268000" />
     </task>
     <task id="LOCAL-00001" summary="backend finished">
       <created>1661158853962</created>
