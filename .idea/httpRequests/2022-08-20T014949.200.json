@@ -1,0 +1,84 @@
+[
+  {
+    "id": 71,
+    "survey": {
+      "id": 64,
+      "title": "Hello World",
+      "questions": [
+        {
+          "id": 62,
+          "prompt": "Its working",
+          "type": "mc",
+          "questionOrder": 1,
+          "answers": [
+            "Hello",
+            "World",
+            "Yellow",
+            "Herald"
+          ]
+        },
+        {
+          "id": 63,
+          "prompt": "Holy moly",
+          "type": "tf",
+          "questionOrder": 2,
+          "answers": [
+            "False",
+            "True"
+          ]
+        }
+      ]
+    },
+    "user": {
+      "id": 65,
+      "email": "admin",
+      "firstName": "admin",
+      "lastName": "admin"
+    },
+    "answers": [
+      "Yellow",
+      "True"
+    ]
+  },
+  {
+    "id": 72,
+    "survey": {
+      "id": 64,
+      "title": "Hello World",
+      "questions": [
+        {
+          "id": 62,
+          "prompt": "Its working",
+          "type": "mc",
+          "questionOrder": 1,
+          "answers": [
+            "Hello",
+            "World",
+            "Yellow",
+            "Herald"
+          ]
+        },
+        {
+          "id": 63,
+          "prompt": "Holy moly",
+          "type": "tf",
+          "questionOrder": 2,
+          "answers": [
+            "False",
+            "True"
+          ]
+        }
+      ]
+    },
+    "user": {
+      "id": 66,
+      "email": "none",
+      "firstName": "none",
+      "lastName": "none"
+    },
+    "answers": [
+      "Hello",
+      "False"
+    ]
+  }
+]

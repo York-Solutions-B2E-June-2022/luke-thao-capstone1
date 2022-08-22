@@ -1,0 +1,28 @@
+[
+  {
+    "id": 71,
+    "user": {
+      "id": 65,
+      "email": "admin",
+      "firstName": "admin",
+      "lastName": "admin"
+    },
+    "answers": [
+      "Yellow",
+      "True"
+    ]
+  },
+  {
+    "id": 72,
+    "user": {
+      "id": 66,
+      "email": "none",
+      "firstName": "none",
+      "lastName": "none"
+    },
+    "answers": [
+      "Hello",
+      "False"
+    ]
+  }
+]

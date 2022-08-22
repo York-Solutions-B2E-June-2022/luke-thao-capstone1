@@ -1,0 +1,1600 @@
+GET http://localhost:8080/survey/submissions?id=64
+
+<> 2022-08-20T015823.200.json
+
+###
+
+GET http://localhost:8080/survey/submissions?id=64
+
+<> 2022-08-20T014949.200.json
+
+###
+
+GET http://localhost:8080/survey/submissions?id=64
+
+<> 2022-08-20T014310.200.json
+
+###
+
+POST http://localhost:8081/submitSurvey
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 66,
+  "answers": ["Hello", "False"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8081/submitSurvey
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 65,
+  "answers": ["Yellow", "True"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+GET http://localhost:8080/survey/submissions?id=64
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 65,
+  "answers": ["Yellow", "True"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-20T013022.200.json
+
+###
+
+GET http://localhost:8080/survey/submissions?id=64
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 65,
+  "answers": ["Yellow", "True"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-20T013001.404.json
+
+###
+
+GET http://localhost:8081/survey/submissions?id=64
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 65,
+  "answers": ["Yellow", "True"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-20T011609.404.json
+
+###
+
+POST http://localhost:8081/submitSurvey
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 65,
+  "answers": ["Yellow", "True"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8081/submitSurvey
+Content-Type: application/json
+
+{
+  "surveyId": 64,
+  "userId": 68,
+  "answers": ["Hello", "False"]
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+GET http://localhost:8081/survey?id=64
+Content-Type: application/json
+
+{
+  "email": "user",
+  "firstName": "user",
+  "lastName": "user",
+  "password": "user"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-20T005728.200.json
+
+###
+
+GET http://localhost:8081/survey/all
+Content-Type: application/json
+
+{
+  "email": "user",
+  "firstName": "user",
+  "lastName": "user",
+  "password": "user"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-20T005619.200.json
+
+###
+
+POST http://localhost:8081/user/create
+Content-Type: application/json
+
+{
+  "email": "user",
+  "firstName": "user",
+  "lastName": "user",
+  "password": "user"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8081/user/create
+Content-Type: application/json
+
+{
+  "email": "user",
+  "firstName": "user",
+  "lastName": "user",
+  "password": "user"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8080/user/login
+Content-Type: application/json
+
+{
+  "email": "none",
+  "firstName": "none",
+  "lastName": "none",
+  "password": "none"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-19T230923.200.json
+
+###
+
+POST http://localhost:8080/user/create
+Content-Type: application/json
+
+{
+  "email": "none",
+  "firstName": "none",
+  "lastName": "none",
+  "password": "none"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8080/user/create
+Content-Type: application/json
+
+{
+  "email": "admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "password": "password"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-19T230824.400.json
+
+###
+
+POST http://localhost:8080/user/create
+Content-Type: application/json
+
+{
+  "email": "admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "password": "password"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "email": "admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "password": "password"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-19T230642.404.json
+
+###
+
+POST http://localhost:8080/user/
+Content-Type: application/json
+
+{
+  "email": "admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "password": "password"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-19T230626.404.json
+
+###
+
+POST http://localhost:8080/user/
+Content-Type: application/json
+
+{
+  "email": "admin",
+  "firstName": "admin",
+  "lastName": "admin",
+  "password": "password"
+}
+
+
+//{
+//  "title": "Hello World",
+//  "questions": [
+//    {
+//      "prompt": "Its working",
+//      "type": "mc",
+//      "questionOrder": 1,
+//      "answers": [
+//        "Hello",
+//        "World",
+//        "Yellow",
+//        "Herald"
+//      ]
+//    },
+//    {
+//      "prompt": "Holy moly",
+//      "type": "tf",
+//      "questionOrder": 2,
+//      "answers": [
+//        "true", "false"
+//      ]
+//    }
+//  ]
+//}
+//
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": [
+//    "Hello",
+//    "World",
+//    "Yellow",
+//    "Herald"
+//  ]
+//}
+
+<> 2022-08-19T230552.404.json
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "title": "Hello World",
+  "questions": [
+    {
+      "prompt": "Its working",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": [
+        "Hello",
+        "World",
+        "Yellow",
+        "Herald"
+      ]
+    },
+    {
+      "prompt": "Holy moly",
+      "type": "tf",
+      "questionOrder": 2,
+      "answers": [
+        "true", "false"
+      ]
+    }
+  ]
+}
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": [
+    "Hello",
+    "World",
+    "Yellow",
+    "Herald"
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "title": "Hello World",
+  "questions": [
+    {
+      "prompt": "Its working",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": [
+        "Hello",
+        "World",
+        "Yellow",
+        "Herald"
+      ]
+    },
+    {
+      "prompt": "Holy moly",
+      "type": "tf",
+      "questionOrder": 2,
+      "answers": [
+        "true", "false"
+      ]
+    }
+  ]
+}
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": [
+    "Hello",
+    "World",
+    "Yellow",
+    "Herald"
+  ]
+}
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "surveyId": 57,
+  "id": 56
+}
+
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": ["Hello", "World", "Yellow", "Herald"]
+//}
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "surveyId": 57,
+  "id": 58
+}
+
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": ["Hello", "World", "Yellow", "Herald"]
+//}
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58
+}
+
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": ["Hello", "World", "Yellow", "Herald"]
+//}
+
+<> 2022-08-19T220931.500.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58
+}
+
+//{
+//  "id": 58,
+//  "surveyId": "57",
+//  "prompt": "Its working",
+//  "type": "mc",
+//  "questionOrder": 1,
+//  "answers": ["Hello", "World", "Yellow", "Herald"]
+//}
+
+<> 2022-08-19T220843.400.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T220621.400.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T220600.400.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T220554.400.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58,
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T220411.400.json
+
+###
+
+DELETE http://localhost:8080/question
+Content-Type: application/json
+
+{
+  "id": 58
+  "surveyId": "57",
+  "prompt": "Its working",
+  "type": "mc",
+  "questionOrder": 1,
+  "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T220359.400.json
+
+###
+
+GET http://localhost:8080/survey/all
+Content-Type: application/json
+
+<> 2022-08-19T213438.200.json
+
+###
+
+GET http://localhost:8080/survey
+Content-Type: application/json
+
+<> 2022-08-19T213426.400.json
+
+###
+
+GET http://localhost:8080/survey
+Content-Type: application/json
+
+{
+      "surveyId": "57",
+      "prompt": "Its working",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T213422.400.json
+
+###
+
+GET http://localhost:8080/survey
+Content-Type: application/json
+
+{
+      "surveyId": "57",
+      "prompt": "Its working",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T213415.400.json
+
+###
+
+POST http://localhost:8080/question
+Content-Type: application/json
+
+{
+      "surveyId": "57",
+      "prompt": "Its working",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+###
+
+POST http://localhost:8080/question
+Content-Type: application/json
+
+{
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+}
+
+<> 2022-08-19T213211.500.json
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Oh no",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "questionOrder": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "questionOrder": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "questionOrder": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "questionOrder": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "questionOrder": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "questionOrder": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "questionOrder": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Solo Dolo",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+GET http://localhost:8080/survey?id=41
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+<> 2022-08-19T201003.200.json
+
+###
+
+GET http://localhost:8080/survey/41
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+<> 2022-08-19T200929.404.json
+
+###
+
+GET http://localhost:8080/survey/all
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+<> 2022-08-19T200919.200.json
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    },
+
+    {
+      "prompt": "Jerald Sheryl",
+      "type": "boolean",
+      "order": 2,
+      "answers": ["True", "False"]
+    },
+
+    {
+      "prompt": "Jerry Terry",
+      "type": "text",
+      "order": 3,
+      "answers": []
+    }
+  ]
+}
+
+###
+
+POST http://localhost:8080/survey
+Content-Type: application/json
+
+{
+  "surveyTitle": "Hello World",
+  "questions": [
+    {
+      "prompt": "Yellow Herald",
+      "type": "mc",
+      "order": 1,
+      "answers": ["Hello", "World", "Yellow", "Herald"]
+    }
+  ]
+}
+
+###
+
+GET http://localhost:8080/survey/all
+Content-Type: application/json
+
+<> 2022-08-19T193448.200.json
+
+###
+
+GET http://localhost:8080/survey/all
+Content-Type: application/json
+
+<> 2022-08-19T185511.200.json
+
+###
+

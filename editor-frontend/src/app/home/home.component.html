@@ -1,1 +1,17 @@
-<p>home works!</p>
+
+
+
+
+<div class="container">
+  <div class="row mt-5">
+    <h1 class="text-center">Surveys</h1>
+
+    <div class="col-12 mb-1">
+      <a class="btn btn-warning" [routerLink]="['/survey']">New Survey</a>
+    </div>
+
+    <hr class="mt-2">
+
+    <app-survey-display *ngFor="let survey of surveys" [survey]="survey"></app-survey-display>
+  </div>
+</div>

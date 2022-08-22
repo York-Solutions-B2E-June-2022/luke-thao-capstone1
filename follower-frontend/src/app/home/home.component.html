@@ -1,1 +1,14 @@
-<p>home works!</p>
+
+
+
+
+<div class="container">
+  <div class="row mt-5">
+    <h1 class="text-center">Surveys</h1>
+
+    <hr class="mt-2">
+
+    <app-survey-display *ngFor="let survey of surveys" [survey]="survey"></app-survey-display>
+
+  </div>
+</div>

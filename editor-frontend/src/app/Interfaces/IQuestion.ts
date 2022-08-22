@@ -5,7 +5,7 @@ export interface IQuestion {
   prompt: string;
   questionOrder: number;
   type: string;
-  answers: Array<String> | null;
+  answers: Array<string>;
 
 }
 

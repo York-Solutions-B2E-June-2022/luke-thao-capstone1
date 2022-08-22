@@ -13,12 +13,12 @@ export class LoginComponent implements OnInit {
   username!: string;
   password!: string;
 
-  throwError!: string;
-  errorSub: Subscription
+  notification!: Array<string | boolean>;
+  notificationSub: Subscription
 
   constructor(private dataService: DataService, private httpService: HttpService) {
-    this.errorSub = dataService.error$.subscribe(errorMsg => {
-      this.throwError = errorMsg
+    this.notificationSub = dataService.notification$.subscribe(message => {
+      this.notification = message
     })
   }
 
@@ -26,18 +26,18 @@ export class LoginComponent implements OnInit {
   }
 
   ngOnDestroy() {
-    this.errorSub.unsubscribe()
+    this.notificationSub.unsubscribe()
   }
 
   onLogin():void {
-    this.throwError = ''
+    this.notification = [];
 
     if (this.username && this.password) {
-      // this.dataService.login(this.username, this.password)
+      this.dataService.login(this.username, this.password)
     }
 
     else {
-      this.throwError = 'Username and Password can not be empty.'
+      this.notification = ['Username and Password can not be empty.', false]
     }
   }
 
